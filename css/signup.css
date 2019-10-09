@@ -135,6 +135,7 @@ nav li {
 }
 
 input {
+	text-align: center;
 	margin: 25px auto 0 auto;
 	background: none;
 	border: 1px solid #00B300;
@@ -196,11 +197,13 @@ input {
 }
 
 #register #reg{
+	text-align: center;
 	background: #00b300;
 	padding: 5px !important;
 }
 
 #register #reg:hover{
+	text-align: center;
 	background: #fafcfe;
 	color: #00b300;
 }
@@ -257,6 +260,8 @@ input {
 
 #login:hover, #reg:hover {
 	/*color: rgba(168, 8, 116, 0.8);*/
+	text-align: center;
+	vertical-align: middle;
 	color:#00B300;
 	background-color: #ffffff;
 }
@@ -334,6 +339,7 @@ footer {
 }
 
 #login:hover, #reg:hover {
+	text-align: center;
 	color: #00B300;
 	background-color: #ffffff;
 }
@@ -391,5 +397,33 @@ footer {
 	}
 }
 
+.button {
+    background-color: #00B300 !important;
+    border: none !important;
+    color: white !important;
+    padding: 15px 32px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    margin: 4px 6px !important;
+    cursor: pointer !important;
+}
 
+.button:hover {
+    background-color: white !important;
+    color: green !important;
+   border: 2px solid #bbdee0 !important;
+    padding: 15px 32px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    font-size: 16px !important;
+    margin: 4px 4px !important;
+    cursor: pointer !important;
+}
 
+text.button {
+	margin-top: -30px !important;
+	text-align: center !important;
+}
