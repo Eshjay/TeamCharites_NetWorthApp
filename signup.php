@@ -176,10 +176,10 @@ if(isset($_POST['submit'])){
 					<input type="password" name="password_confirm" placeholder="Confirm Password" required="">
 					<div id="password_error" style="color:red;"></div>
 				</div>
+               <!-- <button id="reg" type="submit" name="submit" value="Sign up" style="text-align: center;">Sign Up</button> -->
 				
 				
-
-				<input id="reg" name="submit" type="Submit"  value="Sign up">
+                    <input type="button" class="button" name="submit" value="Sing up">
 
 				<div id="register-alert">
 					<p>Have an account?</p>
@@ -187,9 +187,6 @@ if(isset($_POST['submit'])){
 				</div>
 			</form>
 			</div>
-
-			
-
 		</div>
 
 	</div>
