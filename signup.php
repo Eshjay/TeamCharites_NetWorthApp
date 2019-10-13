@@ -178,8 +178,9 @@ if(isset($_POST['submit'])){
 				</div>
                <!-- <button id="reg" type="submit" name="submit" value="Sign up" style="text-align: center;">Sign Up</button> -->
 				
+
 				
-                    <input type="button" class="button" name="submit" value="Sing up">
+                    <input id="login" type="submit" class="button" name="submit" value="Sing up">
 
 				<div id="register-alert">
 					<p>Have an account?</p>
